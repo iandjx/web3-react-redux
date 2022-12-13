@@ -10,6 +10,10 @@
   },
   "dependencies": {
     "@coinbase/wallet-sdk": "^3.6.2",
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/constants": "^5.7.0",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/experimental": "^5.7.0",
     "@ethersproject/properties": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
     "@reduxjs/toolkit": "^1.9.1",

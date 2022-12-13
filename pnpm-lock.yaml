@@ -2,6 +2,10 @@ lockfileVersion: 5.4
 
 specifiers:
   '@coinbase/wallet-sdk': ^3.6.2
+  '@ethersproject/address': ^5.7.0
+  '@ethersproject/constants': ^5.7.0
+  '@ethersproject/contracts': ^5.7.0
+  '@ethersproject/experimental': ^5.7.0
   '@ethersproject/properties': ^5.7.0
   '@ethersproject/providers': ^5.7.2
   '@reduxjs/toolkit': ^1.9.1
@@ -37,6 +41,10 @@ specifiers:
 
 dependencies:
   '@coinbase/wallet-sdk': 3.6.2
+  '@ethersproject/address': 5.7.0
+  '@ethersproject/constants': 5.7.0
+  '@ethersproject/contracts': 5.7.0
+  '@ethersproject/experimental': 5.7.0
   '@ethersproject/properties': 5.7.0
   '@ethersproject/providers': 5.7.2
   '@reduxjs/toolkit': 1.9.1_k4ae6lp43ej6mezo3ztvx6pykq
@@ -328,6 +336,17 @@ packages:
       '@ethersproject/logger': 5.7.0
       '@ethersproject/properties': 5.7.0
       '@ethersproject/transactions': 5.7.0
+    dev: false
+
+  /@ethersproject/experimental/5.7.0:
+    resolution: {integrity: sha512-DWvhuw7Dg8JPyhMbh/CNYOwsTLjXRx/HGkacIL5rBocG8jJC0kmixwoK/J3YblO4vtcyBLMa+sV74RJZK2iyHg==}
+    dependencies:
+      '@ethersproject/web': 5.7.1
+      ethers: 5.7.2
+      scrypt-js: 3.0.1
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
     dev: false
 
   /@ethersproject/hash/5.7.0:
